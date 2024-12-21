@@ -15,6 +15,10 @@ const App = () => {
             <h1>Learn React</h1>
             <p>{data1}</p>
 
+            <div id="testid-1" data-testid="testid-1">
+                Element 1 with some test id
+            </div>
+
             {/* Custom Components */}
             <Input
                 value={message}
